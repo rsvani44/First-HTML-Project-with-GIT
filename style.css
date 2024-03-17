@@ -25,7 +25,7 @@ h1{
         font-weight: 700;
         font-style: normal;
     }
-     /*  <link rel="preconnect" href="https://fonts.googleapis.com">
+       /*<link rel="preconnect" href="https://fonts.googleapis.com">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
          
@@ -35,16 +35,13 @@ h1{
          /* <style>
              @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
             </style>*/
-    
-
-
-
 
 a{
        text-decoration: none;
       /*mainly used in link tags . by keeping none undreline will not be shown*/
 }
 
-  
+      /*  sans-serif, serif and monospace --> These are the 3 font families which
+          will normally support every browser */
 
 
