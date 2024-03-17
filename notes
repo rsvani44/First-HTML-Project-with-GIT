@@ -1,1 +1,11 @@
-  TEXT PROPERTIES
+   
+    /*BORDER PADDING MARGIN*/
+    /* Every HTML data in any website is surrounded within a box */
+
+   PADDING --- Control the space b/w border n text it is used..
+   (left,right,top,bottom) 
+
+   MARGIN --- space b/w webpage/ browser and border
+
+   
+

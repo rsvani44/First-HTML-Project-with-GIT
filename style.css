@@ -1,47 +1,20 @@
- 
-       @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
-h1{ 
-     font-size: 100px;
-     font-weight:900 ;
-     /*controls the thickness of the text (100 to 900)*/
-     font-style:italic ;
-     /*gives style  to text*/
-     letter-spacing:20px ;
-     /* increase or decrease the space b/w letters*/
-     word-spacing: 40px;
-     /* increase or decrease the space b/w words*/
-     text-decoration: underline red;
-     /*used to decorate text like underline or overline*/
-     text-align: center;
-     /*tells the text where to be aligned ( left,right,center)*/
-     text-transform: uppercase;
-     /* can transfrom from small to capital letters */
-     text-shadow:3px 4px 1px pink ;
-     /* gives shadow to text*//* X axis Y axis blurness color*/
-}
-    h2{  
-        font-size: 50px;
-        font-family: "Corinthia", cursive;
-        font-weight: 700;
-        font-style: normal;
-    }
-       /*<link rel="preconnect" href="https://fonts.googleapis.com">
-         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-         <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
-         
-          font-family: "Corinthia", cursive, system ui;
-          font-weight: 700;
-          font-style: normal;*/
-         /* <style>
-             @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
-            </style>*/
 
-a{
-       text-decoration: none;
-      /*mainly used in link tags . by keeping none undreline will not be shown*/
-}
+/*BORDER PADDING MARGIN*/
+/* Every HTML data in any website is surrounded within a box */
 
-      /*  sans-serif, serif and monospace --> These are the 3 font families which
-          will normally support every browser */
+ h1{ 
+     border: 1px solid blue;
+     /* may be solid or dotted border*/
+    /* padding-left: 40px;
+     padding-top: 50px;
+     padding-right: 30px;
+     padding-bottom: 40px;*/
+     padding: 50px;
+     /*equal spacing */ 
 
-
+    /* margin-top: 40px;
+     margin-bottom: 40px;
+     margin-left: 40px;
+     margin-right: 40px;*/ 
+     margin: 60px;
+ }
