@@ -1,21 +1,5 @@
 
-/*input:enabled
+h1:not(#second)
 {
-   background-color: green;
+    color: aqua;
 }
-input:disabled
-{
-    background-color: red;
-}
-input:focus
-{ background-color: aqua;
-  color: pink; 
- }*/
-  input:valid
-  {
-     color: orange;
-  } 
-  input:invalid
-  {
-      color: purple;
-  }
