@@ -11,3 +11,21 @@
      When two margins are coming together at that time the one with highest pixel will be considered..
    
 
+      /** POSITION PROPERTIES**/
+      5 PROPERTIES -- Whenever we use any of the position properties we can control left, right,top, bottom.
+      
+      1. STATIC --useless
+      2. RELATIVE -- The movement of left,right,top,bottom will always happen from its 
+                     ORIGINAL POSITION
+      3. ABSOLUTE --  The movement of left,right,top,bottom will always happen from the
+                      WEBPAGE/BROWSER     
+
+
+     *** If we use only absolute position without relative position, that absolute will take
+         its position always from the webpage. 
+
+         If we use absolute( child )  and relative (parent, grandparent,...) together that
+         absolute will take  its position always from the parent which is made relative.. 
+           
+      4.  FIXED
+      5.  STICKY

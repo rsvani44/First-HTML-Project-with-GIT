@@ -1,10 +1,31 @@
+ 
 
-h1{
-    border: 1px solid black;
-    margin-bottom: 50px;
-}
+ div{ 
+    border: 1px s0lid blueviolet;
+    background-color: blueviolet;
+    width:1000px ;
+    height:500px ;
+    display: flex;
 
-h2{ 
-    border: 1px solid black;
-    margin-top: 100px;
-}
+ }
+ h1{
+    border: 1px s0lid palegoldenrod;
+    background-color: palegoldenrod;
+    width:150px ;
+    height:150px ;
+
+ }
+ h2{
+    border: 1px s0lid pink;
+    background-color: pink;
+    width:150px ;
+    height:150px ;
+
+ }
+ h3{
+    border: 1px s0lid orange;
+    background-color: orange;
+    width:150px ;
+    height:150px ;
+
+ }
