@@ -6,6 +6,8 @@
    (left,right,top,bottom) 
 
    MARGIN --- space b/w webpage/ browser and border
-
+    
+    /*MARGIN COLLAPSING*/
+     When two margins are coming together at that time the one with highest pixel will be considered..
    
 
