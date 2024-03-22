@@ -1,49 +1,44 @@
  
 
- div{ 
+ #outerouter{ 
     border: 1px s0lid blueviolet;
     background-color: blueviolet;
     width:1000px ;
     height:500px ;
     display: flex;
-
+ 
+    /*position: relative;*/
  }
- h1{
+
+ #outer{ 
+    border: 1px s0lid red;
+    background-color: red;
+    width:700px ;
+    height:300px ;
+    display: flex;
+
+    position: relative;
+ }
+ #first{
     border: 1px s0lid palegoldenrod;
     background-color: palegoldenrod;
     width:150px ;
     height:150px ;
 
-   /* position: static;
-    left: 30px;
+    position: absolute;
     right: 0px;
-    top:40px;
-    bottom: 30px;*/
-
-
  }
- h2{
+ #second{
     border: 1px s0lid pink;
     background-color: pink;
     width:150px ;
     height:150px ; 
-   /* position: relative;
-     left: 30px;
-     right: 20px;
-     top:40px;
-     bottom: 30px;*/
- 
-
+  
  }
- h3{
+ #third{
     border: 1px s0lid orange;
     background-color: orange;
     width:150px ;
     height:150px ;
 
-    /*position: absolute;
-    right: 30px;
-    left: 40px;
-    top: 150px;
-    bottom:50px;*/
  }
