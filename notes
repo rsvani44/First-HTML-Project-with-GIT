@@ -44,7 +44,10 @@
         a:visited---- /*once the link is clicked and visisted*/
         a:link---- 
 
-
+       /* h1:nth child(){ color} concept */ n=0,1,2,....
+       /* h1:nth child(2n+3){}--valid*/
+        /* h1:nth child(2n+n){}-- not valid*/
+         /* h1:nth child(2+3n){}-- not valid*/
 
 
 

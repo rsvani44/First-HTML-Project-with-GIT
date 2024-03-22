@@ -1,24 +1,25 @@
 
- a{ 
-    text-decoration: none;
- }
-   /*exactly work at the time of keeping cursor on that link*/
- a:hover{
+ /*h1:first-child{
     color: aqua;
-    border: 1px solid black;
-    padding: 5px;
-    text-decoration: underline;
- } 
-   /*exactly at the time of clicking*/
- a:active{
-    background-color: red;
+}
+ h1:last-child{
+    color: red;
+ }*/
+
+   /*target every even h1 tag*/
+ h1:nth-child(2n){
+    color: pink;
  }
-   /*once the link is clicked and visisted*/
- a:visited{
-    background-color: pink;
-   /* color: yellow;*/
- } 
- a:link{
-    background-color: green;
-    color: rgb(96, 10, 96);
- }
+  /* target every odd h1 tag
+  h1:nth-child(2n-1){
+    color: red;
+  }*/
+   h1:nth-child(2n+3){
+     color: black;
+   }
+    h1:nth-child(2n+3){ 
+        background-color: aqua;
+    }
+    h1:nth-child(3n){
+        color: green;
+    }
