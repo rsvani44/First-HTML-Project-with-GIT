@@ -30,4 +30,36 @@
       4.  FIXED
       5.  STICKY
 
-      
+
+
+        ****** PSEUDO CLASSES****
+         They are used to define some special status to our html data.
+         Reprensted by :
+         pseudo(greek word) meaning: false or not genuine
+        All the pseudo classes like :hover,:visited,..... are not the inbuilt classes which 
+        are presnt in HTML language..
+
+        a:hover---- /*exactly work at the time of keeping cursor on that link*/
+        a:active----  /*exactly at the time of clicking*/
+        a:visited---- /*once the link is clicked and visisted*/
+        a:link---- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

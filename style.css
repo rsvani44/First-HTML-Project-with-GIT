@@ -1,12 +1,24 @@
- 
- a{
-    font-size: 40px;
-    text-decoration: none;
-    margin: 20px;
- }
 
- div{
+ a{ 
+    text-decoration: none;
+ }
+   /*exactly work at the time of keeping cursor on that link*/
+ a:hover{
+    color: aqua;
     border: 1px solid black;
-    padding: 15px;
-    background-color: orangered;
+    padding: 5px;
+    text-decoration: underline;
+ } 
+   /*exactly at the time of clicking*/
+ a:active{
+    background-color: red;
+ }
+   /*once the link is clicked and visisted*/
+ a:visited{
+    background-color: pink;
+   /* color: yellow;*/
+ } 
+ a:link{
+    background-color: green;
+    color: rgb(96, 10, 96);
  }
