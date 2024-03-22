@@ -49,20 +49,7 @@
         /* h1:nth child(2n+n){}-- not valid*/
          /* h1:nth child(2+3n){}-- not valid*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    *div tag will be applied only if the child is div only. it is not applicable ig child is span*
+     similar to span tag also.
 
 
