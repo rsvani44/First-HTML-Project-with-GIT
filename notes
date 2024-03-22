@@ -42,7 +42,7 @@
         a:hover---- /*exactly work at the time of keeping cursor on that link*/
         a:active----  /*exactly at the time of clicking*/
         a:visited---- /*once the link is clicked and visisted*/
-        a:link---- 
+        a:link---- /*if the link is not visited*/
 
        /* h1:nth child(){ color} concept */ n=0,1,2,....
        /* h1:nth child(2n+3){}--valid*/

@@ -1,10 +1,21 @@
 
-
- div:nth-child(2n)
- {
-      color: aqua;
- } 
-  span:nth-child(3n)
-  { 
-     color:red ;
+/*input:enabled
+{
+   background-color: green;
+}
+input:disabled
+{
+    background-color: red;
+}
+input:focus
+{ background-color: aqua;
+  color: pink; 
+ }*/
+  input:valid
+  {
+     color: orange;
+  } 
+  input:invalid
+  {
+      color: purple;
   }
