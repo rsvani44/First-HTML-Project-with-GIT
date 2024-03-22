@@ -14,12 +14,25 @@
     width:150px ;
     height:150px ;
 
+   /* position: static;
+    left: 30px;
+    right: 0px;
+    top:40px;
+    bottom: 30px;*/
+
+
  }
  h2{
     border: 1px s0lid pink;
     background-color: pink;
     width:150px ;
-    height:150px ;
+    height:150px ; 
+   /* position: relative;
+     left: 30px;
+     right: 20px;
+     top:40px;
+     bottom: 30px;*/
+ 
 
  }
  h3{
@@ -28,4 +41,9 @@
     width:150px ;
     height:150px ;
 
+    /*position: absolute;
+    right: 30px;
+    left: 40px;
+    top: 150px;
+    bottom:50px;*/
  }
