@@ -1,5 +1,22 @@
 
-h1:not(#second)
-{
-    color: aqua;
-}
+  p::first-line
+  {color: aqua;}
+  p::first-letter
+  {
+    font-size: 30px;
+    color: red;
+  } 
+  h1::after
+  {
+    content: "EASY ";
+    color: red;
+  } 
+  h1::before
+  { 
+    content: "LEARNING ";
+    color: PINK;
+  } 
+  h1::selection
+  { 
+    color: green;
+  }

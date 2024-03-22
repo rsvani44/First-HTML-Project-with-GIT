@@ -52,4 +52,12 @@
     *div tag will be applied only if the child is div only. it is not applicable ig child is span*
      similar to span tag also.
 
+       /* Pseduo classes are used to apply some special state to that 
+          entire HTML data  ==> : */
+
+        /* Pseudo elements are also used to apply some special
+           state to the part of HTML data ==> :: */
+
+        /* after and before pseudo elements play an important role 
+           when we work with CSS Animations */
 
